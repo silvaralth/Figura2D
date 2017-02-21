@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CCF805F21E5C429100159884 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCF805F11E5C429100159884 /* main.cpp */; };
+		CCF805FA1E5C42DB00159884 /* figura2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCF805F81E5C42DB00159884 /* figura2D.cpp */; };
+		CCF805FD1E5C45FF00159884 /* cuadrado.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCF805FB1E5C45FF00159884 /* cuadrado.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		CCF805EE1E5C429100159884 /* Figura2D */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Figura2D; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF805F11E5C429100159884 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CCF805F81E5C42DB00159884 /* figura2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = figura2D.cpp; sourceTree = "<group>"; };
+		CCF805F91E5C42DB00159884 /* figura2D.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = figura2D.hpp; sourceTree = "<group>"; };
+		CCF805FB1E5C45FF00159884 /* cuadrado.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cuadrado.cpp; sourceTree = "<group>"; };
+		CCF805FC1E5C45FF00159884 /* cuadrado.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cuadrado.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				CCF805F11E5C429100159884 /* main.cpp */,
+				CCF805F81E5C42DB00159884 /* figura2D.cpp */,
+				CCF805FB1E5C45FF00159884 /* cuadrado.cpp */,
+				CCF805FC1E5C45FF00159884 /* cuadrado.hpp */,
+				CCF805F91E5C42DB00159884 /* figura2D.hpp */,
 			);
 			path = Figura2D;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCF805FD1E5C45FF00159884 /* cuadrado.cpp in Sources */,
 				CCF805F21E5C429100159884 /* main.cpp in Sources */,
+				CCF805FA1E5C42DB00159884 /* figura2D.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
