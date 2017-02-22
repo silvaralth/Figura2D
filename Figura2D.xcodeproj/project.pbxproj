@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCBB7C041E5DB36200F78938 /* circulo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCBB7C021E5DB36200F78938 /* circulo.cpp */; };
 		CCF805F21E5C429100159884 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCF805F11E5C429100159884 /* main.cpp */; };
 		CCF805FA1E5C42DB00159884 /* figura2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCF805F81E5C42DB00159884 /* figura2D.cpp */; };
 		CCF805FD1E5C45FF00159884 /* cuadrado.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCF805FB1E5C45FF00159884 /* cuadrado.cpp */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CCBB7C021E5DB36200F78938 /* circulo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = circulo.cpp; sourceTree = "<group>"; };
+		CCBB7C031E5DB36200F78938 /* circulo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = circulo.hpp; sourceTree = "<group>"; };
 		CCF805EE1E5C429100159884 /* Figura2D */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Figura2D; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF805F11E5C429100159884 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CCF805F81E5C42DB00159884 /* figura2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = figura2D.cpp; sourceTree = "<group>"; };
@@ -65,6 +68,8 @@
 			children = (
 				CCF805F11E5C429100159884 /* main.cpp */,
 				CCF805F81E5C42DB00159884 /* figura2D.cpp */,
+				CCBB7C021E5DB36200F78938 /* circulo.cpp */,
+				CCBB7C031E5DB36200F78938 /* circulo.hpp */,
 				CCF805FB1E5C45FF00159884 /* cuadrado.cpp */,
 				CCF805FC1E5C45FF00159884 /* cuadrado.hpp */,
 				CCF805F91E5C42DB00159884 /* figura2D.hpp */,
@@ -130,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCF805FD1E5C45FF00159884 /* cuadrado.cpp in Sources */,
+				CCBB7C041E5DB36200F78938 /* circulo.cpp in Sources */,
 				CCF805F21E5C429100159884 /* main.cpp in Sources */,
 				CCF805FA1E5C42DB00159884 /* figura2D.cpp in Sources */,
 			);
@@ -258,6 +264,7 @@
 				CCF805F71E5C429100159884 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
