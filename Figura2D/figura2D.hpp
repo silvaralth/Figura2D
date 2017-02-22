@@ -27,12 +27,12 @@ public:
     ~Figura2D();
     
     double getArea();
-    void setArea(double area);
+    void setArea(double pArea);
     double getPerimetro();
-    void setPerimetro(double perimetro);
+    void setPerimetro(double pPerimetro);
     
-    virtual double calcularArea();
-    virtual double calcularPerimetro();
+    virtual void calcularArea() = 0;
+    virtual void calcularPerimetro() = 0;
 };
 
 #endif /* figura2D_hpp */

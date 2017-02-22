@@ -21,12 +21,14 @@ class Cuadrado : public Figura2D {
 private:
     double lado;
 public:
-    Cuadrado(double lado, double area, double perimetro);
+    Cuadrado(double lado);
     ~Cuadrado();
     
     double getLado();
     void setLado(double lado);
-
+    
+    void calcularArea();
+    void calcularPerimetro();
 };
 
 #endif /* cuadrado_hpp */

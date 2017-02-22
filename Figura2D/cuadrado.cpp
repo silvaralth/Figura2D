@@ -10,9 +10,25 @@
 
 using namespace std;
 
-Cuadrado::Cuadrado(double lado, double area, double perimetro): Figura2D() {
-    this -> lado = lado;
+Cuadrado::Cuadrado(double lado) : Figura2D() {
+    setLado(lado);
 }
 
 Cuadrado::~Cuadrado(){}
 
+double Cuadrado::getLado(){ return this -> lado; }
+void Cuadrado::setLado(double lado){ this -> lado = lado; }
+
+void Cuadrado::calcularArea(){
+    double ladoCuadrado = getLado();
+    double areaCuadrado = ladoCuadrado * ladoCuadrado;
+    
+    Cuadrado::setArea(areaCuadrado);
+}
+
+void Cuadrado::calcularPerimetro(){
+    double ladoCuadrado = getLado();
+    double perimetroCuadrado = ladoCuadrado * 4;
+    
+    Cuadrado::setPerimetro(perimetroCuadrado);
+}

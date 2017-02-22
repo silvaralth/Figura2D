@@ -14,7 +14,8 @@ Figura2D::Figura2D(){}
 Figura2D::~Figura2D(){}
 
 double Figura2D::getArea(){return area;}
-void Figura2D::setArea(double area){this -> area = area;}
+void Figura2D::setArea(double pArea){this -> area = pArea;}
 
 double Figura2D::getPerimetro(){return perimetro;}
-void Figura2D::setPerimetro(double perimetro){this -> perimetro = perimetro;}
+void Figura2D::setPerimetro(double pPerimetro){this -> perimetro = pPerimetro;}
+
